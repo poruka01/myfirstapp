@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var new = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("New World")
+        print(new)
     }
 
     override func didReceiveMemoryWarning() {
